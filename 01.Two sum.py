@@ -29,6 +29,7 @@ Only one valid answer exists.
  
 '''
 
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -38,14 +39,14 @@ class Solution(object):
         """
         sol = []
         for i in range(len(nums)):
-            for j in range(1,len(nums)):
+            for j in range(1, len(nums)):
                 if nums[i] + nums[j] == target:
-                    sol.append([i,j])
-            
+                    sol.append([i, j])
+
         for i in sol:
             if i[0] != i[1]:
                 ans = i
         return ans
-    
 
-# 4721ms runtime 14.28mb memory 
+
+# 4721ms runtime 14.28mb memory
