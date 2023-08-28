@@ -41,3 +41,6 @@ Details
 16.24MB
 Beats 93.86%of users with Python3
 '''
+
+
+# https://leetcode.com/problems/repeated-substring-pattern/solutions/3938580/99-42-2-approaches-o-n/
